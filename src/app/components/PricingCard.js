@@ -59,6 +59,17 @@ export default function YogaPlans() {
           Access to Online classes
         </p>
       </div>
+
+      <div className="mt-4 bg-green-100 p-4 rounded-lg">
+        <h2 className="font-semibold text-black">
+          Early Bird Discount
+        </h2>
+
+        <h2 className="font-semibold text-black">
+        Book Before 31st March : 40 % Off
+        </h2>
+       
+      </div>
       <h3 className="mt-6 font-semibold text-black">
         Online Classes
       </h3>
