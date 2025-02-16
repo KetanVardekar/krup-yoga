@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
+import { motion } from "framer-motion";
 
 export default function YogaPlans() {
   const [activeTab, setActiveTab] = useState("Group Classes");
@@ -42,9 +43,8 @@ export default function YogaPlans() {
         {["Group Classes"].map((tab) => (
           <button
             key={tab}
-            className={`px-4 py-2 text-lg font-medium rounded-lg ${
-              activeTab === tab ? "text-white bg-orange-500" : "text-black"
-            }`}
+            className={`px-4 py-2 text-lg font-medium rounded-lg ${activeTab === tab ? "text-white bg-orange-500" : "text-black"
+              }`}
             onClick={() => setActiveTab(tab)}
           >
             {tab}
@@ -60,16 +60,19 @@ export default function YogaPlans() {
         </p>
       </div>
 
-      <div className="mt-4 bg-green-100 p-4 rounded-lg">
-        <h2 className="font-semibold text-black">
-          Early Bird Discount
-        </h2>
+      
 
+      <motion.div
+        className="mt-4 bg-green-100 p-4 rounded-lg text-center"
+        animate={{ y: [0, -5, 0] }}
+        transition={{ repeat: Infinity, repeatType: "reverse", duration: 0.6 }}
+      >
+        <h2 className="font-semibold text-black">Early Bird Discount</h2>
         <h2 className="font-semibold text-black">
-        Book Before 31st March : 40 % Off
+          Book Before 31st March : <span className="text-red-500">40% Off</span>
         </h2>
-       
-      </div>
+      </motion.div>;
+
       <h3 className="mt-6 font-semibold text-black">
         Online Classes
       </h3>
