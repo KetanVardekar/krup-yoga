@@ -71,7 +71,7 @@ export default function YogaPlans() {
         <h2 className="font-semibold text-black">
           Book Before 31st March : <span className="text-red-500">40% Off</span>
         </h2>
-      </motion.div>;
+      </motion.div>
 
       <h3 className="mt-6 font-semibold text-black">
         Online Classes
