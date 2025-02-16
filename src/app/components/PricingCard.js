@@ -10,9 +10,9 @@ export default function YogaPlans() {
 
   const plans = [
     { classes: "1 class", price: 399, duration: "7 days" },
-    { classes: "3 classes", price: 1350, duration: "7 days" },
-    { classes: "8 classes", price: 2650, duration: "1 month" },
-    { classes: "12 classes", price: 2899, duration: "1 month" },
+    { classes: "3 classes", price: 1099, duration: "7 days" },
+    { classes: "8 classes", price: 2599, duration: "1 month" },
+    { classes: "12 classes", price: 2999, duration: "1 month" },
     { classes: "16 classes", price: 3150, duration: "1 month" },
     { classes: "20 classes", price: 3400, duration: "1 month" },
     { classes: "24 classes", price: 7650, duration: "3 months" },
@@ -56,11 +56,11 @@ export default function YogaPlans() {
           Svaasthy Sadhna - Beginner to Intermediate
         </h2>
         <p className="text-sm text-black">
-          Access to both online & in-studio classes
+          Access to Online classes
         </p>
       </div>
       <h3 className="mt-6 font-semibold text-black">
-        Hybrid classes (Online and Offline both)
+        Online Classes
       </h3>
       <div className="mt-4">
         {plans.map((plan, index) => (
