@@ -7,6 +7,10 @@
   --foreground: #171717;
 }
 
+p {
+  color: black !important;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
