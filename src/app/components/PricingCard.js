@@ -13,6 +13,20 @@ export default function YogaPlans() {
     { classes: "3 classes", price: 1350, duration: "7 days" },
     { classes: "8 classes", price: 2650, duration: "1 month" },
     { classes: "12 classes", price: 2899, duration: "1 month" },
+    { classes: "16 classes", price: 3150, duration: "1 month" },
+    { classes: "20 classes", price: 3400, duration: "1 month" },
+    { classes: "24 classes", price: 7650, duration: "3 months" },
+    { classes: "36 classes", price: 8400, duration: "3 months" },
+    { classes: "48 classes", price: 9150, duration: "3 months" },
+    { classes: "60 classes", price: 9500, duration: "3 months" },
+    { classes: "48 classes", price: 14000, duration: "6 months" },
+    { classes: "72 classes", price: 15500, duration: "6 months" },
+    { classes: "96 classes", price: 17000, duration: "6 months" },
+    { classes: "120 classes", price: 18500, duration: "6 months" },
+    { classes: "96 classes", price: 23900, duration: "12 months" },
+    { classes: "144 classes", price: 26900, duration: "12 months" },
+    { classes: "192 classes", price: 29900, duration: "12 months" },
+    { classes: "240 classes", price: 32900, duration: "12 months" },
   ];
 
   const handlePayClick = (plan) => {
