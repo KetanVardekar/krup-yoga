@@ -30,7 +30,7 @@ export default function YogaPlans() {
   ];
 
   const handlePayClick = (plan) => {
-    const upiUrl = `upi://pay?pa=vketan2188@okaxis&pn=KetanVardekar&am=${plan.price}&cu=INR&tn=YogaPlanPayment`;
+    const upiUrl = `upi://pay?pa=krupalitrivedi111-2@oksbi&pn=KrupaliTrivedi&am=${plan.price}&cu=INR&tn=YogaPlanPayment`;
     setSelectedPlan({ ...plan, upiUrl });
     setShowQR(true);
   };
