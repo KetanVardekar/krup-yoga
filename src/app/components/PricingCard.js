@@ -9,10 +9,10 @@ export default function YogaPlans() {
   const [selectedPlan, setSelectedPlan] = useState(null);
 
   const plans = [
-    { classes: "1 class", price: 1, duration: "7 days" },
-    { classes: "3 classes", price: 1450, duration: "7 days" },
-    { classes: "8 classes", price: 2750, duration: "1 month" },
-    { classes: "12 classes", price: 3000, duration: "1 month" },
+    { classes: "1 class", price: 399, duration: "7 days" },
+    { classes: "3 classes", price: 1350, duration: "7 days" },
+    { classes: "8 classes", price: 2650, duration: "1 month" },
+    { classes: "12 classes", price: 2899, duration: "1 month" },
   ];
 
   const handlePayClick = (plan) => {
@@ -23,12 +23,12 @@ export default function YogaPlans() {
 
   return (
     <div className="p-4 bg-gray-50 min-h-screen text-black">
-      <h1 className="text-xl font-bold">BUY NEW PLAN</h1>
+      <h1 className="text-xl font-bold">BUY OUR NEW PLANS</h1>
       <div className="flex mt-4 border-b-2">
-        {["Group Classes", "Workshops"].map((tab) => (
+        {["Group Classes"].map((tab) => (
           <button
             key={tab}
-            className={`px-4 py-2 text-lg font-medium ${
+            className={`px-4 py-2 text-lg font-medium rounded-lg ${
               activeTab === tab ? "text-white bg-orange-500" : "text-black"
             }`}
             onClick={() => setActiveTab(tab)}
