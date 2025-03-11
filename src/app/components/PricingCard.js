@@ -74,16 +74,6 @@ export default function YogaPlans() {
       </motion.div>
 
 
-      <motion.div
-        className="mt-4 p-4 rounded-lg text-center bg-gradient-to-r from-pink-300 to-pink-500 text-black shadow-lg"
-        animate={{ y: [0, -5, 0] }}
-        transition={{ repeat: Infinity, repeatType: "reverse", duration: 0.6 }}
-      >
-        <h2 className="font-bold text-lg">🎉 Women's Day Special Offer 🎉</h2>
-        <p className="font-medium">Join with a friend & get <span className="font-bold">45% off</span> each!</p>
-      </motion.div>
-
-
       <h3 className="mt-6 font-semibold text-black">
         Online Classes
       </h3>
